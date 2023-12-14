@@ -1,0 +1,30 @@
+label{
+    font-size: 20px;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: inline-start;
+}
+input[type=submit],input[type=button]{
+    font-size: 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: black;
+    margin: auto;
+    border: 3px solid whitesmoke;
+    cursor: pointer;
+}
+form{
+    top: 40%;
+    left: 40%;
+    position: absolute;
+}
+ body
+ {
+    background-color: black;
+ }
+ body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/login.jpg");
+}
+

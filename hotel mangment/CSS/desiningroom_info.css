@@ -1,0 +1,43 @@
+label{
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: inline-start;
+    
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg")
+}
+table
+{
+    background-color: transparent;
+    height: auto;
+    width: auto;
+}
+input[type=text]{
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: auto;
+}
+input[type=submit],input[type=button]{
+    font-size: 20px;
+    border-radius: 7px;
+    color: whitesmoke;
+    background-color: black;
+    margin: auto;
+}
+input[type=reset]{
+    font-size: 20px;
+    border-radius: 7px;
+    color: whitesmoke;
+    background-color: black;
+    margin: auto;
+
+}
+form{
+    top: 40%;
+    left: 40%;
+    position: absolute;
+}

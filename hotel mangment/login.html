@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>login</title>
+        <link rel="stylesheet" href="CSS/desinginglogin.css">
+        
+    </head>
+    <center>
+    <body>
+        <form name=f method="post" action="login.jsp">
+        <table>
+        <tr>
+            <th><label>Login Id</label></th>
+            <th><input type="text" name="t1"></th>
+        </tr>
+        <tr>
+            <th><label>Password</label></th>
+            <th><input type="password" name="t2"></th>
+        </tr>
+        <tr>
+            <th colspan="2"><input type="submit" value="Login" name="b1">
+            <input type="button" value="Create User" name="b1" onclick="create()"></th>
+            
+        </tr>
+        </table>
+    </body>
+    <script>
+        
+            function create()
+            {
+                window.open("admin.html","_self");
+            }
+        
+    </script>
+    </form>
+</html>
