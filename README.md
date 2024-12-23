@@ -1,3 +1,9 @@
+
+hotel-management/
+├── sql/
+│   └── hotel_management_schema.sql
+├── README.md
+
 # Hotel Management SQL Schema
 
 This repository contains the SQL schema for a hotel management system. It defines the structure for managing users, employees, rooms, reservations, and payments.
